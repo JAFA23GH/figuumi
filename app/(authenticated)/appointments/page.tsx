@@ -21,19 +21,19 @@ const mockVeterinarians = [
     id: "1",
     name: "Ana Martínez",
     specialty: "Cirugía",
-    image: "/placeholder.svg?height=48&width=48",
+    image: "/images/female-doctor.jpg?height=48&width=48",
   },
   {
     id: "2",
     name: "Carlos Rodríguez",
     specialty: "Dermatología",
-    image: "/placeholder.svg?height=48&width=48",
+    image: "/images/young-male-doctor.jpg?height=48&width=48",
   },
   {
     id: "3",
     name: "Laura Sánchez",
     specialty: "Medicina General",
-    image: "/placeholder.svg?height=48&width=48",
+    image: "/images/young-woman-doctor.jpg?height=48&width=48",
   },
 ]
 
@@ -43,7 +43,7 @@ const mockAppointmentsByVet = {
     {
       id: "101",
       clientName: "Kelly",
-      clientImage: "/placeholder.svg?height=48&width=48",
+      clientImage: "/images/female3.jpg?height=48&width=48",
       date: new Date(),
       status: "completed",
       petName: "Max",
@@ -53,7 +53,7 @@ const mockAppointmentsByVet = {
     {
       id: "102",
       clientName: "Juan",
-      clientImage: "/placeholder.svg?height=48&width=48",
+      clientImage: "/images/male4.jpg?height=48&width=48",
       date: new Date(),
       status: "pending",
       petName: "Luna",
@@ -65,7 +65,7 @@ const mockAppointmentsByVet = {
     {
       id: "201",
       clientName: "María",
-      clientImage: "/placeholder.svg?height=48&width=48",
+      clientImage: "/images/female5.jpg?height=48&width=48",
       date: new Date(),
       status: "completed",
       petName: "Rocky",
@@ -75,7 +75,7 @@ const mockAppointmentsByVet = {
     {
       id: "202",
       clientName: "Pedro",
-      clientImage: "/placeholder.svg?height=48&width=48",
+      clientImage: "/images/male5.jpg?height=48&width=48",
       date: new Date(),
       status: "pending",
       petName: "Mimi",
@@ -85,7 +85,7 @@ const mockAppointmentsByVet = {
     {
       id: "203",
       clientName: "Lucía",
-      clientImage: "/placeholder.svg?height=48&width=48",
+      clientImage: "/images/female6.jpg?height=48&width=48",
       date: new Date(),
       status: "pending",
       petName: "Toby",
@@ -97,7 +97,7 @@ const mockAppointmentsByVet = {
     {
       id: "301",
       clientName: "Roberto",
-      clientImage: "/placeholder.svg?height=48&width=48",
+      clientImage: "/images/male6.jpg?height=48&width=48",
       date: new Date(),
       status: "completed",
       petName: "Pelusa",
@@ -140,7 +140,7 @@ export default function AppointmentsPage() {
       {
         id: "1",
         clientName: "Kelly",
-        clientImage: "/placeholder.svg?height=48&width=48",
+        clientImage: "/images/female3.jpg?height=48&width=48",
         date: new Date(),
         status: "completed",
         petName: "Max",
@@ -150,7 +150,7 @@ export default function AppointmentsPage() {
       {
         id: "2",
         clientName: "Carlos",
-        clientImage: "/placeholder.svg?height=48&width=48",
+        clientImage: "/images/male1.jpg?height=48&width=48",
         date: new Date(),
         status: "pending",
         petName: "Luna",
@@ -160,7 +160,7 @@ export default function AppointmentsPage() {
       {
         id: "3",
         clientName: "María",
-        clientImage: "/placeholder.svg?height=48&width=48",
+        clientImage: "/images/female5.jpg?height=48&width=48",
         date: new Date(),
         status: "pending",
         petName: "Rocky",

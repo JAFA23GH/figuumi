@@ -51,7 +51,6 @@ export default function VeterinarianRegistrationPage() {
         </div>
 
         <div className="flex flex-col items-center mb-6">
-          <Logo />
           <h1 className="text-2xl font-bold text-gray-800 mt-4">Registrarse</h1>
           <p className="text-sm text-gray-600">Veterinario</p>
         </div>

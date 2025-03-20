@@ -9,10 +9,10 @@ export function VeterinarianDashboard({ user }: { user: any }) {
           <CardContent className="p-6 space-y-6">
             <div className="flex items-start gap-4">
               <div className="h-12 w-12 rounded-full overflow-hidden flex-shrink-0">
-                <img src="/placeholder.svg?height=48&width=48" alt="Ricardo" className="h-full w-full object-cover" />
+                <img src="/images/male2.jpg?height=48&width=48" alt="Ricardo" className="h-full w-full object-cover" />
               </div>
               <div>
-                <h3 className="font-medium">Ricardo</h3>
+                <h3 className="font-medium">Alberto</h3>
                 <p className="text-gray-600">
                   Fue nuestra primera visita, pero quedamos impresionados con lo bien que trataron a nuestro conejo. Muy atentos y con un enfoque personalizado. ¡Lo recomiendo al 100%!
                 </p>
@@ -21,7 +21,7 @@ export function VeterinarianDashboard({ user }: { user: any }) {
 
             <div className="flex items-start gap-4">
               <div className="h-12 w-12 rounded-full overflow-hidden flex-shrink-0">
-                <img src="/placeholder.svg?height=48&width=48" alt="Marlene" className="h-full w-full object-cover" />
+                <img src="/images/female7.jpg?height=48&width=48" alt="Marlene" className="h-full w-full object-cover" />
               </div>
               <div>
                 <h3 className="font-medium">Marlene</h3>
@@ -33,7 +33,7 @@ export function VeterinarianDashboard({ user }: { user: any }) {
 
             <div className="flex items-start gap-4">
               <div className="h-12 w-12 rounded-full overflow-hidden flex-shrink-0">
-                <img src="/placeholder.svg?height=48&width=48" alt="Jorge" className="h-full w-full object-cover" />
+                <img src="/images/male6.jpg?height=48&width=48" alt="Jorge" className="h-full w-full object-cover" />
               </div>
               <div>
                 <h3 className="font-medium">Jorge</h3>
@@ -67,7 +67,7 @@ export function VeterinarianDashboard({ user }: { user: any }) {
                 <div className="flex items-center gap-3">
                   <div className="h-10 w-10 rounded-full overflow-hidden">
                     <img
-                      src="/placeholder.svg?height=40&width=40"
+                      src="/images/female1.jpg?height=40&width=40"
                       alt="Cliente"
                       className="h-full w-full object-cover"
                     />
@@ -87,7 +87,7 @@ export function VeterinarianDashboard({ user }: { user: any }) {
                 <div className="flex items-center gap-3">
                   <div className="h-10 w-10 rounded-full overflow-hidden">
                     <img
-                      src="/placeholder.svg?height=40&width=40"
+                      src="/images/male1.jpg?height=40&width=40"
                       alt="Cliente"
                       className="h-full w-full object-cover"
                     />

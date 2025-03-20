@@ -11,16 +11,16 @@ export default function RegisterPage() {
           <Link href="/">
             <Button variant="ghost" className="text-primary-700 hover:bg-primary-50 flex items-center gap-2">
               <ArrowLeft className="h-4 w-4" />
-              Volver al inicio de sesión
+              Volver
             </Button>
           </Link>
         </div>
 
-        <Logo className="mb-8" />
+        <Logo className="mb-8 w-[250px]" /> 
 
         <h1 className="text-3xl font-bold text-gray-800 mb-8">Registrarse</h1>
 
-        <p className="text-lg text-gray-700 mb-8">¿Eres Clínica veterinaria o veterinario?</p>
+        <p className="text-lg text-gray-700 mb-8">¿Eres Veterinario o Clínica Veterinaria?</p>
 
         <div className="w-full flex flex-col sm:flex-row gap-4">
           <Link href="/register/veterinarian" className="flex-1">

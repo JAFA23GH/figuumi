@@ -8,8 +8,8 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Figuumi - Veterinary Management System",
-  description: "A comprehensive management system for veterinary clinics and individual veterinarians",
+  title: "Figuumi - Gestión",
+  description: "Sistema de gestión de perfiles para veterinarios y clínicas.",
     generator: 'v0.dev'
 }
 

@@ -11,7 +11,7 @@ const mockMessages = [
     id: "1",
     contactId: "101",
     senderName: "Kelly",
-    senderImage: "/placeholder.svg?height=48&width=48",
+    senderImage: "/images/female3.jpg?height=48&width=48",
     content: "Hola, quisiera agendar una cita para mi perro Max. ¿Tienen disponibilidad para el próximo martes?",
     timestamp: new Date(Date.now() - 1000 * 60 * 30), // 30 minutos atrás
     read: false,
@@ -20,7 +20,7 @@ const mockMessages = [
     id: "2",
     contactId: "102",
     senderName: "Carlos",
-    senderImage: "/placeholder.svg?height=48&width=48",
+    senderImage: "/images/male1.jpg?height=48&width=48",
     content: "Buenas tardes, necesito saber si tienen disponible la vacuna antirrábica para mi gato.",
     timestamp: new Date(Date.now() - 1000 * 60 * 60 * 2), // 2 horas atrás
     read: false,
@@ -29,7 +29,7 @@ const mockMessages = [
     id: "3",
     contactId: "103",
     senderName: "María",
-    senderImage: "/placeholder.svg?height=48&width=48",
+    senderImage: "/images/female5.jpg?height=48&width=48",
     content: "¿Podrían recomendarme algún alimento especial para mi perro con problemas digestivos?",
     timestamp: new Date(Date.now() - 1000 * 60 * 60 * 24), // 1 día atrás
     read: true,

@@ -25,21 +25,14 @@ export function Sidebar({ user }: SidebarProps) {
   // Determinar el nombre a mostrar según el tipo de usuario
   const displayName = user.role === "clinic" ? user.clinicName : `Dr. ${user.name} ${user.surname || ""}`
 
+  // Determinar la imagen de perfil según el tipo de usuario
+  const profileImage = user.role === "clinic" ? "/images/fotoclinica.png" : "/images/fotodoctor.png"
+
   return (
     <div className="h-screen w-64 bg-primary flex flex-col flex-shrink-0">
       <div className="p-4 flex flex-col items-center">
         <div className="h-24 w-24 rounded-full bg-white overflow-hidden mb-2">
-          {user.profileImage ? (
-            <img
-              src={user.profileImage || "/placeholder.svg"}
-              alt={displayName}
-              className="h-full w-full object-cover"
-            />
-          ) : (
-            <div className="h-full w-full flex items-center justify-center bg-primary-200 text-primary-700 text-2xl font-bold">
-              {user.role === "clinic" ? user.clinicName.charAt(0) : user.name.charAt(0)}
-            </div>
-          )}
+          <img src={profileImage || "/placeholder.svg"} alt={displayName} className="h-full w-full object-cover" />
         </div>
         <h2 className="text-white font-medium text-center">{displayName}</h2>
       </div>

@@ -63,7 +63,7 @@ export function ClinicDashboard({ user }: { user: any }) {
                   <div className="flex items-center gap-3">
                     <div className="h-10 w-10 rounded-full overflow-hidden">
                       <img
-                        src="/placeholder.svg?height=40&width=40"
+                        src="/images/female1.jpg?height=40&width=40"
                         alt="Cliente"
                         className="h-full w-full object-cover"
                       />
@@ -83,7 +83,7 @@ export function ClinicDashboard({ user }: { user: any }) {
                   <div className="flex items-center gap-3">
                     <div className="h-10 w-10 rounded-full overflow-hidden">
                       <img
-                        src="/placeholder.svg?height=40&width=40"
+                        src="/images/male1.jpg?height=40&width=40"
                         alt="Cliente"
                         className="h-full w-full object-cover"
                       />
@@ -107,7 +107,7 @@ export function ClinicDashboard({ user }: { user: any }) {
                 <div className="flex items-start gap-4">
                   <div className="h-12 w-12 rounded-full overflow-hidden flex-shrink-0">
                     <img
-                      src="/placeholder.svg?height=48&width=48"
+                      src="/images/male2.jpg?height=48&width=48"
                       alt="Ricardo"
                       className="h-full w-full object-cover"
                     />
@@ -137,7 +137,7 @@ export function ClinicDashboard({ user }: { user: any }) {
                 <div className="flex items-start gap-4">
                   <div className="h-12 w-12 rounded-full overflow-hidden flex-shrink-0">
                     <img
-                      src="/placeholder.svg?height=48&width=48"
+                      src="/images/female2.jpg?height=48&width=48"
                       alt="Marlene"
                       className="h-full w-full object-cover"
                     />
@@ -171,12 +171,12 @@ export function ClinicDashboard({ user }: { user: any }) {
               <CardContent className="p-6 space-y-4">
                 <div className="flex items-start gap-4 p-3 bg-primary-50 rounded-lg">
                   <div className="h-10 w-10 rounded-full overflow-hidden flex-shrink-0">
-                    <img src="/placeholder.svg?height=40&width=40" alt="Kelly" className="h-full w-full object-cover" />
+                    <img src="/images/female3.jpg?height=40&width=40" alt="Kelly" className="h-full w-full object-cover" />
                   </div>
                   <div>
                     <h3 className="font-medium">Kelly</h3>
                     <p className="text-gray-600">
-                      tiam vel enim at quam congue volutpat. Aliquam ullamcorper efficitur dapibus.
+                      ¿Tienen disponibilidad para el próximo martes?
                     </p>
                     <p className="text-xs text-gray-500 mt-1">Hace 2 horas</p>
                   </div>
@@ -184,13 +184,12 @@ export function ClinicDashboard({ user }: { user: any }) {
 
                 <div className="flex items-start gap-4 p-3 bg-primary-50 rounded-lg">
                   <div className="h-10 w-10 rounded-full overflow-hidden flex-shrink-0">
-                    <img src="/placeholder.svg?height=40&width=40" alt="Juan" className="h-full w-full object-cover" />
+                    <img src="/images/male3.jpg?height=40&width=40" alt="Juan" className="h-full w-full object-cover" />
                   </div>
                   <div>
-                    <h3 className="font-medium">Juan</h3>
+                    <h3 className="font-medium">Pablo</h3>
                     <p className="text-gray-600">
-                      tiam vel enim at quam congue volutpat. Aliquam ullamcorper efficitur dapibus. Morbi varius massa
-                      eu massa rhoncus scelerisque.
+                      Buenas tardes, una consulta ¿atienden iguanas?
                     </p>
                     <p className="text-xs text-gray-500 mt-1">Ayer</p>
                   </div>

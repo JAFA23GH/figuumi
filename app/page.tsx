@@ -53,8 +53,8 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen bg-primary flex items-center justify-center p-4">
       <div className="w-full max-w-md bg-secondary rounded-lg p-8 flex flex-col items-center">
-        <Logo className="mb-8" />
-
+        <Logo className="mb-8 w-[250px]" /> 
+        
         <form action={handleSubmit} className="w-full space-y-6">
           {error && <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">{error}</div>}
 
