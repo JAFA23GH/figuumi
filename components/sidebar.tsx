@@ -26,7 +26,7 @@ export function Sidebar({ user }: SidebarProps) {
   const displayName = user.role === "clinic" ? user.clinicName : `Dr. ${user.name} ${user.surname || ""}`
 
   return (
-    <div className="h-screen w-64 bg-primary flex flex-col">
+    <div className="h-screen w-64 bg-primary flex flex-col flex-shrink-0">
       <div className="p-4 flex flex-col items-center">
         <div className="h-24 w-24 rounded-full bg-white overflow-hidden mb-2">
           {user.profileImage ? (
